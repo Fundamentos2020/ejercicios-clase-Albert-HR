@@ -1,0 +1,47 @@
+/*
+Especificidad (a, b, c, d)
+
+a: estilos definidos en html
+b: IDs
+c: clase y pseudo-clase
+d: pseudo elementos y elemetos de html
+*/
+
+#menu{
+    padding: 0px;
+    color: white;
+    background-color: black;
+}
+
+.menu_item{
+    display: inline-block;
+    padding: 10px;
+    width: 100px;
+}
+
+.menu_items:hover{
+    background-color: white;
+    color: black;
+}
+
+/*Herencia*/
+#menu li{
+    display: inline-block;
+    padding: 10px;
+    width: 100px;
+}
+
+#menu li:hover{
+    background-color: white;
+    color: black;
+}
+/*Herencia*/
+
+#content{
+    border: 1px solid black;
+}
+
+#content p{
+    color: blue;
+}
+
