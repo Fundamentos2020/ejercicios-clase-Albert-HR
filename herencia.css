@@ -7,35 +7,22 @@ c: clase y pseudo-clase
 d: pseudo elementos y elemetos de html
 */
 
-#menu{
-    padding: 0px;
-    color: white;
-    background-color: black;
-}
+/*
 
-.menu_item{
-    display: inline-block;
-    padding: 10px;
-    width: 100px;
-}
+    /*Herencia*/
+    #menu li{
+        display: inline-block;
+        padding: 10px;
+        width: 100px;
+    }
 
-.menu_items:hover{
-    background-color: white;
-    color: black;
-}
+    #menu li:hover{
+        background-color: white;
+        color: black;
+    }
+    /*Herencia*/
 
-/*Herencia*/
-#menu li{
-    display: inline-block;
-    padding: 10px;
-    width: 100px;
-}
-
-#menu li:hover{
-    background-color: white;
-    color: black;
-}
-/*Herencia*/
+*/
 
 #content{
     border: 1px solid black;
@@ -45,3 +32,44 @@ d: pseudo elementos y elemetos de html
     color: blue;
 }
 
+
+@media (min-width: 100px){
+    #menu{
+        padding: 0px;
+        color: white;
+        background-color: red ;
+    }
+    
+    .menu_item{
+        display: inline-block;
+        padding: 10px;
+        width: 100px;
+    }
+    
+    .menu_items:hover{
+        background-color: white;
+        color: blue;
+    }
+}
+
+
+
+@media (max-width: 450px)
+{
+    #menu{
+        padding: 0px;
+        color: white;
+        background-color: black;
+    }
+
+    .menu_item{
+        display: inline-block;
+        padding: 10px;
+        width: 100px;
+    }
+
+    .menu_items:hover{
+        background-color: white;
+        color: black;
+    }
+}
