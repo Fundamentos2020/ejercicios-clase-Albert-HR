@@ -37,6 +37,7 @@
     padding: 0px;
     color: white;
     display: inline-block;
+    width: 50%;
 }
 
 #menu li{
@@ -58,7 +59,7 @@
 
 #search input{
     width: 50px;
-    transition: width 2px;
+    transition: width 2s
 }
 
 #search input:focus{
