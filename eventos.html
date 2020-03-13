@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos</title>
+</head>
+<body>
+    
+    <button onclick="click_b()" onmouseover = "over_b()" >presiona aqui</button>
+
+
+    <ul id = "lista_ej">
+        
+    </ul>
+
+
+    <script>
+        function click_b() {
+            //var x = document.createElement("li");
+            //x.innerText = "Elemento";
+            //var lista = document.getElementById("lista_ej");
+            //lista.appendChild(x);
+
+            //console.log("Boton presionado")
+
+            var x = "<li>Elemento</li>"
+            var lista = document.getElementById("lista_ej");
+            lista.innerHTML += x;
+
+        }
+
+        function over_b() {
+            //console.log("mouse sobre boton")
+        }
+
+    </script>
+
+</body>
+</html>
